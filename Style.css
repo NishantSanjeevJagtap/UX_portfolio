@@ -1,0 +1,681 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;}
+                                             /* Header */
+
+#logo{
+    /* background-color: antiquewhite; */
+    padding-top: 2em;
+    display: inline-block;
+    position: fixed;
+    width: 6.18em;
+    height: 6.18em;}
+#box2{
+    background-color: rgba(91, 75, 123, 0.38);
+    border: 1.5px solid  rgba(91, 75, 123, 0.78);
+    position: fixed;
+    top: 3.5em;
+    left: 27em;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    border-radius: 2em;
+    padding-left: 1em;
+    padding-right: 1em;
+    height: 3em;
+    box-shadow: rgba(91, 75, 123, 0.48);}
+.Main_menu{
+    background-color: chocolate;
+    text-transform: capitalize;
+    text-decoration: none;
+    align-self: center;
+    padding-left: 1em;  
+    padding-right: 1em;  
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+    margin: 0.5em;
+    border-radius: 2em;}
+#day_or_night_mode_Button{
+    top: 2.9em;
+    right: 2em;
+    z-index: 2;
+    display: flex;
+    position: fixed;
+    margin-right: 3em;
+    background-color:#f0f8ff;
+    border: 1.5px solid  rgba(91, 75, 123, 0.78);
+    align-self: center;
+    padding: 0.7em;
+    margin: 0.5em;
+    border-radius: 2em;}
+#day_or_night_mode_icon{
+    display: inline-block;}
+                                            /*  body  */
+/* box4 */
+#box4{
+    /* background-color: rgb(165, 220, 153); */
+    display: flex;
+    height: 37em;
+    width:100%;
+    flex-direction: column;
+    align-items: center;}
+#name_heading{
+    /* background-color: chocolate;  */
+    font-size: 3em;
+    font-weight: 800;
+    padding-bottom: 0.5em;
+    padding-top: 5em;
+    /* margin-top: 1.5em; */}
+#subname_heading{
+    /* background-color: yellow; */
+    height: 20em;
+    width: 40em;
+    text-align: center;
+    font-size: 1.4em;
+    font-weight: 500;}
+#scrolling_Mouse{
+    height: 7em;
+    width: 7em;
+    color: rgba(255,255,255,0);}
+
+/* title */
+.title{
+    /* background-color: cornsilk; */
+    display: flex;  
+    margin-top: 3em;
+    margin-bottom: 1em; 
+    flex-direction: row;}
+.title_name{
+    /* background-color: aqua; */
+    display: inline-block;
+    max-width: 25em;
+    padding: 1em;
+    font-size: 2em;
+    font-weight: 700;}
+.title_logo{
+    /* background-color: yellow; */
+    display: inline-block;
+    align-self: flex-end;
+    height: 3.7em;
+    width: 3.5em; }
+
+/* Projects*/
+.project_container{
+    /* background-color: rgba(244, 199, 244, 0.858); */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 100%;
+    height: auto;}
+.project_flashcard{
+    /* background-color: rgba(123, 245, 131, 0.858); */
+    display: flex;
+    flex-direction: column;
+    width: 35em;
+    height: auto;
+    margin: 2em;
+    text-decoration: none;
+    color: #000;
+    border-radius: 0em;
+    padding: 0%;}
+#project_img01{
+    background-image: url(/Work/Projects/P_01/P01_landing_page.png);
+    background-size: cover;
+    background-color: aqua;
+    width: 35em;
+    height: 25em;
+    border-radius: 2em;}
+#project_img02{
+    background-image: url(/Work/Projects/P_02/P02_landing_page.png);
+    background-size: cover;
+    background-color: aqua;
+    width: 35em;
+    height: 25em;
+    border-radius: 2em;}
+#project_img03{
+    background-image: url();
+    background-size: cover;
+    background-color: aqua;
+    width: 35em;
+    height: 25em;
+    border-radius: 2em;}
+#project_img04{
+    background-image: url();
+    background-size: cover;
+    background-color: aqua;
+    width: 35em;
+    height: 25em;
+    border-radius: 2em;}
+.details_list{
+    /* background-color:burlywood ; */
+    display: flex;
+    flex-direction: row;
+    justify-content: left;}
+.details_list_item{
+    background-color: rgba(255,178,127,0);
+    border: 1.5px solid #000;
+    text-align: left;
+    padding: 1em;
+    font-size: small;
+    font-weight: 300;
+    border-radius: 2em;
+    margin: 0.5em;
+    list-style: none;}
+.details_list_first_item{
+    background-color: rgba(255,178,127,.96);
+    border: 1.5px solid #000;
+    text-align: left;
+    padding: 1em;
+    font-size: small;
+    font-weight: 300;
+    border-radius: 2em;
+    margin: 0.5em;
+    list-style: none;}
+.project_title{
+    display: inline-block;
+    padding: 0.2em;
+    font-size: 2em;
+    font-weight: 700;}
+.project_details{
+    display: inline-block;
+    padding: 0.2em;
+    font-size: 1em;
+    font-weight: 300;}
+
+/* footer */
+.footer{
+    background-color: black;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;   
+    margin-top: 10em;
+    width: 100%;
+    height: 50em;}
+.box03{
+    /* background-color: rgb(96, 82, 82); */
+    display: flex;
+    flex-direction: column;
+    width: 50em;
+    height: auto;}
+.footer_headline{
+    color: #f0f8ff;
+    margin-top: 3.5em;
+    font-size: xxx-large;
+    font-weight: 900;}
+.footer_sub_headline{
+    color: aliceblue;
+    margin-bottom: 2em;
+    font-size: xxx-large;
+    font-weight: 300;
+    font-style: italic;}
+.footer_email{
+    color: aliceblue;
+    font-style: italic;
+    margin-top: 1em;
+    margin-bottom: 3em;}
+.footer_link{
+    color: aliceblue;
+    font-style: italic;
+    margin-top: 0.7em;
+    margin-bottom: 3em;
+    text-decoration: none;
+    font-size: xx-large;
+    font-weight: 450;}
+
+                                        /* About page  */
+#about_me_container{
+    margin-top: 10em;
+    /* background-color: darksalmon; */
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    margin-bottom: 5em;}
+#profile_pic{
+    background-image: url(/About/Profile_pic.jpg);
+    background-size: cover;
+    /* background-color: aqua; */
+    width: 30em;
+    height: 40em;
+    border-radius: 2em;
+    margin: 2em;
+    margin-left: 3em;
+    display: inline-block;}
+#profile_details{
+    /* background-color: aqua; */
+    width: 37em;
+    height: auto;
+    margin: 2.5em;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;}
+#Profile_headline{
+    /* background-color: blueviolet; */
+    color: #1d262d;
+    font-size: xxx-large;
+    margin-bottom: 1em;
+    font-weight: 900;}
+#Profile_info{
+    /* background-color: rgb(90, 142, 239); */
+    color: #1a3042;
+    font-size: larger;
+    line-height: 1.5em;
+    font-weight: 400;}
+
+   /* Hobbies*/
+.Hobbies_container{
+    /* background-color: rgba(244, 199, 244, 0.858); */
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    width: 100%;
+    height: auto;}
+.Hobbies_flashcard{
+    /* background-color: rgba(123, 245, 131, 0.858); */
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    width: 100%;
+    height: auto;
+    margin: 1em;
+    border-radius: 0em;
+    padding: 0%;}
+.box7{
+    /* background-color: cadetblue; */
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    width: 40em;
+    height: auto;}
+.Hobbies_title{
+    /* background-color: blueviolet; */
+    /* display: inline-block; */
+    padding: 0.5em;
+    font-size: 2.2em;
+    font-weight: 700;}
+.Hobbies_details{
+    /* background-color: brown; */
+    /* display: inline-block; */
+    max-width: 35em;
+    padding: 0.5em;
+    color: #1a3042;
+    font-size: larger;
+    line-height: 1.5em;
+    font-weight: 400;;}
+#Hobbies_img01{
+    background-image: url(/About/images/Painting_img.png);
+    background-size: cover;
+    /* background-color: rgb(11, 85, 85); */
+    /* border-radius: 2em; */
+    width: 40em;
+    height: 30em;}
+#Hobbies_img02{
+    background-image: url(/About/images/Bucket_list.png);
+    background-size: cover;
+    /* background-color: rgb(11, 85, 85); */
+    /* border-radius: 2em; */
+    width: 30em;
+    height: 35em;}
+#Hobbies_img03{
+    background-image: url();
+    background-size: cover;
+    background-color: rgb(11, 85, 85);
+    /* border-radius: 2em; */
+    margin-bottom: 0.5em;
+    width: 40em;
+    height: 30em;}
+#Hobbies_img04{
+    background-image: url();
+    background-size: cover;
+    background-color: rgb(11, 85, 85);
+    /* border-radius: 2em; */
+    margin-bottom: 0.5em;
+    width: 40em;
+    height: 30em;}
+
+    /* Experience*/
+.Experience_container{
+    /* background-color: rgba(244, 199, 244, 0.858); */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    width: 100%;
+    height: auto;}
+.Experience_flashcard{
+    /* background-color: rgba(123, 245, 131, 0.858); */
+    display: flex;
+    flex-direction: row;
+    width: auto;
+    height: auto;
+    margin: 2em;
+    border-radius: 0em;
+    padding: 0%;}
+#Experience_img01{
+    background-image: url(/About/images/R3sys_Internship.png);
+    background-size: cover;
+    background-color: rgb(11, 85, 85);
+    width: 24em;
+    height: 14em;
+    margin-left: 1.5em;
+    border: 1px solid #2b363e;
+    border-radius: 1em;}
+#Experience_img02{
+    background-image: url();
+    background-size: cover;
+    background-color: rgb(11, 85, 85);
+    width: 20em;
+    height: 20em;
+    border-radius: 20em;}
+#Experience_img03{
+    background-image: url();
+    background-size: cover;
+    background-color: rgb(11, 85, 85);
+    width: 20em;
+    height: 20em;
+    border-radius: 20em;}
+#Experience_img04{
+    background-image: url();
+    background-size: cover;
+    background-color: rgb(11, 85, 85);
+    width: 20em;
+    height: 20em;
+    border-radius: 20em;}
+.box4{
+    /* background-color: cadetblue; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 60em;
+    margin-left: 2em;
+    margin-right: 5em;
+    height: auto;}
+.Experience_title{
+    display: inline-block;
+    padding: 0.2em;
+    font-size: 1.5em;
+    font-weight: 900;}
+.Experience_subtitle{
+    display: inline-block;
+    padding: 0.2em;
+    font-size: 1em;
+    font-weight: 400;
+    font-style: italic;}
+.details_list{
+    /* background-color:burlywood ; */
+    display: flex;
+    flex-direction: row;
+    justify-content: start;}
+.details_list_item{
+    /* background-color: rgba(255,178,127,0); */
+    border: 1.5px solid #000;
+    text-align: left;
+    padding: 1em;
+    font-size: small;
+    font-weight: 300;
+    border-radius: 2em;
+    margin: 0.5em;
+    list-style: none;}
+.details_list_first_item{
+    background-color: rgba(255,178,127,.96);
+    border: 1.5px solid #000;
+    text-align: left;
+    padding: 1em;
+    font-size: small;
+    font-weight: 300;
+    border-radius: 2em;
+    margin: 0.5em;
+    list-style: none;}
+.Experience_details{
+    display: inline-block;
+    padding: 0.2em;
+    font-size: 1em;
+    font-weight: 300;}
+    
+    
+    /* Education*/
+.Education_container{
+    /* background-color: rgba(244, 199, 244, 0.858); */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    width: 100%;
+    height: auto;}
+.Education_flashcard{
+    /* background-color: rgba(123, 245, 131, 0.858); */
+    display: flex;
+    flex-direction: row;
+    width: auto;
+    height: auto;
+    margin: 2em;
+    border-radius: 0em;
+    padding: 0%;}
+#Education_img01{
+    background-image: url(/About/images/google\ _course_01.png);
+    background-size: cover;
+    background-color: rgb(11, 85, 85);
+    width: 24em;
+    height: 14em;
+    margin-left: 1.5em;
+    border: 1px solid #2b363e;
+    border-radius: 1em;}
+#Education_img02{
+    background-image: url(/About/images/college_pic.jpg);
+    background-size: cover;
+    background-color: rgb(11, 85, 85);
+    width: 24em;
+    height: 14em;
+    margin-left: 1.5em;
+    border: 1px solid #2b363e;
+    border-radius: 1em;}
+#Education_img03{
+    background-image: url();
+    background-size: cover;
+    background-color: rgb(11, 85, 85);
+    width: 24em;
+    height: 14em;
+    margin-left: 1.5em;
+    border: 1px solid #2b363e;
+    border-radius: 1em;}
+#Education_img04{
+    background-image: url();
+    background-size: cover;
+    background-color: rgb(11, 85, 85);
+    width: 24em;
+    height: 14em;
+    margin-left: 1.5em;
+    border: 1px solid #2b363e;
+    border-radius: 1em;}
+.box5{
+    /* background-color: cadetblue; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 60em;
+    margin-left: 2em;
+    margin-right: 5em;
+    height: auto;}
+.Education_title{
+    /* background-color: blueviolet; */
+    display: inline-block;
+    padding: 0.2em;
+    font-size: 1.5em;
+    font-weight: 900;}
+.Education_subtitle{
+    display: inline-block;
+    padding: 0.2em;
+    font-size: 1em;
+    font-weight: 400;
+    font-style: italic;}
+.Education_list{
+    /* background-color:burlywood ; */
+    display: flex;
+    flex-direction: row;
+    justify-content: start;}
+.details_list_item{
+    /* background-color: rgba(255,178,127,0); */
+    border: 1.5px solid #000;
+    text-align: left;
+    padding: 1em;
+    font-size: small;
+    font-weight: 300;
+    border-radius: 2em;
+    margin: 0.5em;
+    list-style: none;}
+.details_list_first_item{
+    background-color: rgba(255,178,127,.96);
+    border: 1.5px solid #000;
+    text-align: left;
+    padding: 1em;
+    font-size: small;
+    font-weight: 300;
+    border-radius: 2em;
+    margin: 0.5em;
+    list-style: none;}
+.Education_details{
+    display: inline-block;
+    padding: 0.2em;
+    font-size: 1em;
+    font-weight: 300;}
+
+    /* Certificates*/
+.Certificates_container{
+    /* background-color: rgba(244, 199, 244, 0.858); */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 100%;
+    height: auto;}
+.Certificates_flashcard{
+    /* background-color: rgba(123, 245, 131, 0.858); */
+    display: flex;
+    flex-direction: column;
+    width: 15em;
+    height: auto;
+    margin: 1em;
+    border-radius: 0em;
+    padding: 0%;}
+#Certificates_img01{
+    background-image: url(/About/images/google\ _course_01.png);
+    background-size: cover;
+    background-color: rgb(11, 85, 85);
+    /* border-radius: 2em; */
+    margin-bottom: 0.5em;
+    width: 15em;
+    height: 10em;}
+#Certificates_img02{
+    background-image: url(/About/images/Alpha_java.png);
+    background-size: cover;
+    background-color: rgb(11, 85, 85);
+    /* border-radius: 2em; */
+    margin-bottom: 0.5em;
+    width: 15em;
+    height: 10em;}
+#Certificates_img03{
+    background-image: url(/About/images/sunhack.png);
+    background-size: cover;
+    background-color: rgb(11, 85, 85);
+    /* border-radius: 2em; */
+    margin-bottom: 0.5em;
+    width: 15em;
+    height: 10em;}
+#Certificates_img04{
+    background-image: url(/About/images/TechHunt_2022_Certificate.png);
+    background-size: cover;
+    background-color: rgb(11, 85, 85);
+    /* border-radius: 2em; */
+    margin-bottom: 0.5em;
+    width: 15em;
+    height: 10em;}
+.box6{
+    /* background-color: cadetblue; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 15em;
+    height: auto;}
+.Certificates_title{
+    display: inline-block;
+    padding: 0.2em;
+    font-size: 1em;
+    font-weight: 600;}
+.Certificates_subtitle{
+    display: inline-block;
+    padding: 0.2em;
+    font-size: 0.6em;
+    font-weight: 400;
+    font-style: italic;}
+
+/* Skills*/
+.Skills_container{
+    /* background-color: rgba(244, 199, 244, 0.858); */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 100%;
+    height: auto;}
+.Skills_flashcard{
+    /* background-color: rgba(123, 245, 131, 0.858); */
+    display: flex;
+    flex-direction: column;
+    width: 15em;
+    height: auto;
+    margin: 1em;
+    border-radius: 0em;
+    padding: 0%;}
+.box7{
+    /* background-color: cadetblue; */
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    width: 15em;
+    height: auto;}
+.Skills_title{
+    display: inline-block;
+    padding: 0.2em;
+    font-size: 2em;
+    font-weight: 700;}
+.Skills_list{
+    /* background-color:burlywood ; */
+    display: flex;
+    flex-direction: column;
+    justify-content: start;}
+.Skills_list_item{
+    text-align: left;
+    padding: 0.3em;
+    margin-left: 1.4em;
+    font-size: medium;
+    font-weight: 400;}
+.Skills_list_first_item{
+    background-color: rgba(255,178,127,.96);
+    text-align: left;
+    padding: 1em;
+    font-size: small;
+    font-weight: 450;
+    border-radius: 2em;
+    margin: 0.5em;
+    list-style: none;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
