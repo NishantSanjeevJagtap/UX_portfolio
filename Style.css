@@ -65,11 +65,14 @@
     font-size: 3em;
     font-weight: 800;
     padding-bottom: 0.5em;
-    padding-top: 5em;
+    margin-top: 5em;
+    text-align: center;
     /* margin-top: 1.5em; */}
 #subname_heading{
     /* background-color: yellow; */
-    height: 20em;
+    height: 7em;
+    color: #635475c1;
+    font-style: italic;
     width: 40em;
     text-align: center;
     font-size: 1.4em;
