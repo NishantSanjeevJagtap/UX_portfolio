@@ -6,49 +6,49 @@
 
 #logo{
     /* background-color: antiquewhite; */
-    padding-top: 2em;
+    margin-top: 2vw;
     display: inline-block;
     position: fixed;
-    width: 6.18em;
-    height: 6.18em;}
+    width: 8vw;
+    height: 8vw;}
 #box2{
     background-color: rgba(91, 75, 123, 0.38);
     border: 1.5px solid  rgba(91, 75, 123, 0.78);
     position: fixed;
-    top: 3.5em;
-    left: 27em;
+    top: 3.5vw;
+    left: 35vw;
     display: flex;
     flex-direction: row;
     justify-content: center;
-    border-radius: 2em;
-    padding-left: 1em;
-    padding-right: 1em;
-    height: 3em;
+    border-radius: 2vw;
+    padding-left: 2vw;
+    padding-right: 2vw;
+    height: 3.8vw;
     box-shadow: rgba(91, 75, 123, 0.48);}
 .Main_menu{
     background-color: chocolate;
     text-transform: capitalize;
     text-decoration: none;
     align-self: center;
-    padding-left: 1em;  
-    padding-right: 1em;  
-    padding-top: 0.5em;
-    padding-bottom: 0.5em;
-    margin: 0.5em;
-    border-radius: 2em;}
+    padding-left: 1vw;  
+    padding-right: 1vw;  
+    padding-top: 0.5vw;
+    padding-bottom: 0.5vw;
+    margin: 0.5vw;
+    border-radius: 2vw;}
 #day_or_night_mode_Button{
-    top: 2.9em;
-    right: 2em;
+    top: 3vw;
+    right: 2vw;
     z-index: 2;
     display: flex;
     position: fixed;
-    margin-right: 3em;
+    margin-right: 3vw;
     background-color:#f0f8ff;
     border: 1.5px solid  rgba(91, 75, 123, 0.78);
     align-self: center;
-    padding: 0.7em;
-    margin: 0.5em;
-    border-radius: 2em;}
+    padding: 0.7vw;
+    margin: 0.5vw;
+    border-radius: 2vw;}
 #day_or_night_mode_icon{
     display: inline-block;}
                                             /*  body  */
@@ -56,52 +56,51 @@
 #box4{
     /* background-color: rgb(165, 220, 153); */
     display: flex;
-    height: 37em;
+    height: 100vh;
     width:100%;
     flex-direction: column;
     align-items: center;}
 #name_heading{
     /* background-color: chocolate;  */
-    font-size: 3em;
-    font-weight: 800;
-    padding-bottom: 0.5em;
-    margin-top: 5em;
+    font-size: 4vw;
+    font-weight:900;
+    padding-bottom: 0.5vw;
+    margin-top: 43vh;
     text-align: center;
     /* margin-top: 1.5em; */}
 #subname_heading{
     /* background-color: yellow; */
-    height: 7em;
+    height: 12vw;
     color: #635475c1;
     font-style: italic;
-    width: 40em;
+    width: 60vw;
     text-align: center;
-    font-size: 1.4em;
+    font-size: 1.618vw;
     font-weight: 500;}
 #scrolling_Mouse{
-    height: 7em;
-    width: 7em;
+    height: 7vw;
+    width: 7vw;
     color: rgba(255,255,255,0);}
 
 /* title */
 .title{
     /* background-color: cornsilk; */
-    display: flex;  
-    margin-top: 3em;
-    margin-bottom: 1em; 
+    display: flex; 
     flex-direction: row;}
 .title_name{
     /* background-color: aqua; */
     display: inline-block;
-    max-width: 25em;
-    padding: 1em;
-    font-size: 2em;
+    max-width: 50vw;
+    padding: 5vw;
+    padding-bottom: 2vw;
+    font-size: 3vw;
     font-weight: 700;}
 .title_logo{
     /* background-color: yellow; */
     display: inline-block;
     align-self: flex-end;
-    height: 3.7em;
-    width: 3.5em; }
+    height: 3.7vw;
+    width: 3.5vw; }
 
 /* Projects*/
 .project_container{
