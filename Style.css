@@ -814,7 +814,7 @@
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
-    width: 100%;
+    width: 100vw;
     height: auto;}
 .Education_flashcard{
     /* background-color: rgba(123, 245, 131, 0.858); */
@@ -822,96 +822,70 @@
     flex-direction: row;
     width: auto;
     height: auto;
-    margin: 2em;
+    margin-bottom: 30px;
+    margin-left: 60px;
     border-radius: 0em;
     padding: 0%;}
 #Education_img01{
     background-image: url(/About/images/google\ _course_01.png);
     background-size: cover;
     background-color: rgb(11, 85, 85);
-    width: 24em;
-    height: 14em;
-    margin-left: 1.5em;
+    width: 410px;
+    height: 250px;
+    /* margin-right: 20px; */
     border: 1px solid #2b363e;
-    border-radius: 1em;}
+    border-radius: 20px;}
 #Education_img02{
     background-image: url(/About/images/college_pic.jpg);
     background-size: cover;
     background-color: rgb(11, 85, 85);
-    width: 24em;
-    height: 14em;
-    margin-left: 1.5em;
+    width: 400px;
+    height: 250px;
     border: 1px solid #2b363e;
-    border-radius: 1em;}
+    border-radius: 20px;}
 #Education_img03{
     background-image: url();
     background-size: cover;
     background-color: rgb(11, 85, 85);
-    width: 24em;
-    height: 14em;
-    margin-left: 1.5em;
+    width: 400px;
+    height: 250px;
     border: 1px solid #2b363e;
-    border-radius: 1em;}
+    border-radius: 20px;}
 #Education_img04{
     background-image: url();
     background-size: cover;
     background-color: rgb(11, 85, 85);
-    width: 24em;
-    height: 14em;
-    margin-left: 1.5em;
+    width: 400px;
+    height: 250px;
     border: 1px solid #2b363e;
-    border-radius: 1em;}
+    border-radius: 20px;}
 .box5{
     /* background-color: cadetblue; */
     display: flex;
     flex-direction: column;
     justify-content: center;
-    width: 60em;
-    margin-left: 2em;
-    margin-right: 5em;
+    width: 900px;
+    margin-left: 40px;
+    margin-right: 100px;
     height: auto;}
 .Education_title{
     /* background-color: blueviolet; */
     display: inline-block;
-    padding: 0.2em;
-    font-size: 1.5em;
-    font-weight: 900;}
+    padding-bottom: 10px;
+    font-size: 24px;
+    font-weight: 750;}
 .Education_subtitle{
     display: inline-block;
-    padding: 0.2em;
-    font-size: 1em;
+    padding: 5px;
+    font-size: 16px;
     font-weight: 400;
     font-style: italic;}
-.Education_list{
-    /* background-color:burlywood ; */
-    display: flex;
-    flex-direction: row;
-    justify-content: start;}
-.details_list_item{
-    /* background-color: rgba(255,178,127,0); */
-    border: 1.5px solid #000;
-    text-align: left;
-    padding: 1em;
-    font-size: small;
-    font-weight: 300;
-    border-radius: 2em;
-    margin: 0.5em;
-    list-style: none;}
-.details_list_first_item{
-    background-color: rgba(255,178,127,.96);
-    border: 1.5px solid #000;
-    text-align: left;
-    padding: 1em;
-    font-size: small;
-    font-weight: 300;
-    border-radius: 2em;
-    margin: 0.5em;
-    list-style: none;}
 .Education_details{
+    /* background-color: darksalmon; */
     display: inline-block;
-    padding: 0.2em;
-    font-size: 1em;
-    font-weight: 300;}
+    padding: 5px;
+    font-size: 16px;
+    font-weight: 350;}
 
     /* Certificates*/
 .Certificates_container{
