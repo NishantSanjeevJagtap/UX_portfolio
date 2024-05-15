@@ -4,16 +4,11 @@
   "description": "",
   "scripts": {
     "start": "parcel ./*.html ",
-    "build": "parcel build ./*.html  --dist-dir ./build"
+    "build": "parcel build ./*.html --out-dir ./build"
   },
   "author": "",
   "license": "ISC",
   "devDependencies": {
     "parcel": "^2.7.0"
-  }
-  {
-    "scripts": {
-      "build": "[my-framework] build --output public"
-    }
   }
 }
