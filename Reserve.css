@@ -903,27 +903,7 @@ hr{
     margin-left: 15px;
     border: 1px solid #2b363e;
     border-radius: 20px;}
-#Experience_img02{
-    /* background-image: url(); */
-    background-size: cover;
-    background-color: rgb(11, 85, 85);
-    width: 400px;
-    height: 400px;
-    border-radius: 20px;}
-#Experience_img03{
-    /* background-image: url(); */
-    background-size: cover;
-    background-color: rgb(11, 85, 85);
-    width: 400px;
-    height: 400px;
-    border-radius: 20px;}
-#Experience_img04{
-    /* background-image: url(); */
-    background-size: cover;
-    background-color: rgb(11, 85, 85);
-    width: 400px;
-    height: 400px;
-    border-radius: 20px;}
+
 .box4{
     /* background-color: rgb(218, 238, 239); */
     display: flex;
