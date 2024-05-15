@@ -1,0 +1,95 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: "SF Pro Text","Myriad Set Pro",system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI","SF Pro Icons","Apple Legacy Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+}
+#Title_Page_background{
+    /* background-image:url(/Images/01.Title\ Page.png) ; */
+    width: 100%;
+    height: 100vh;
+}
+#Before_Redesign_Background{
+    /* background-image:url(/Images/02.Brfore\ Redesign.png); */
+    width: 100%;
+    height: auto;
+}
+#Content_Structure_Before_Background{
+        width: 100%;
+        height: auto;
+}
+#After_Redesign_Background{
+    width: 100%;
+    height: auto;
+}
+#Content_Structure_After_Background{
+    width: 100%;
+    height: auto;
+}
+#Content_Structure_Before_Background{
+    width: 100%;
+    height: auto;
+}
+.button-container {
+    position: fixed;
+    top: 88vh;
+    left: 88vw;
+    display: flex;
+  }
+  
+  .button-container button {
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin: 10px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    color: #F7F9FD;
+    background-color: #A6C1E5;
+    border: 1px solid #4885D7; /* Add 1px solid border */
+    border-radius: 20px;
+    transition: background-color 0.2s ease-in-out;
+  }
+  
+  .button-container button:hover {
+    background-color: #4885D7;
+  }
+  
+  .button-container button.clicked {
+    background-color: #295b9c;
+  }
+  
+  .arrow {
+    background-color: transparent;
+  }
+  
+  .left,
+  .right {
+    /* Style arrows using pseudo-elements for bold borders */
+    position: relative;
+    &::before {
+      content: "";
+      position: absolute;
+      top: 50%;
+      transform: translateY(-50%);
+      width: 0;
+      height: 0;
+      border-style: solid;
+      border-width: 0 5px 5px 0; /* Create right triangle for left arrow and vice versa for right arrow */
+      border-color: transparent transparent #000 transparent; /* Set border color for arrow */
+    }
+  }
+  
+  .left::before {
+    left: -5px; /* Position left arrow border */
+  }
+  
+  .right::before {
+    right: -5px; /* Position right arrow border */
+  }
+  
+  .home {
+    /* Style home button */
+  }
+  
