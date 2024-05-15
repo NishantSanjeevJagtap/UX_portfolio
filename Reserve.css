@@ -1021,7 +1021,7 @@ hr{
     border: 1px solid #2b363e;
     border-radius: 20px;}
 #Education_img04{
-    background-image: url();
+    /* background-image: url(); */
     background-size: cover;
     background-color: rgb(11, 85, 85);
     width: 400px;
